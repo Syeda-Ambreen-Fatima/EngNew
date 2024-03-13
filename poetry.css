@@ -1,0 +1,56 @@
+
+
+.mhd{
+    font-size: 33px;
+    font-weight: 300;
+    text-align: center  ;
+    font-family: 'Gill Sans';
+}
+.credit{
+    font-size: 30px;
+    font-weight: 100;
+    text-align: right;
+
+}
+body{
+    background-color: mistyrose;
+}
+.image{
+    margin-left:60px;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 17px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 3px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #11e655;
+}
+
+.corner-text {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    color: #f4f0f0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.h1{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 60px;
+    font-weight: 650;
+    
+}

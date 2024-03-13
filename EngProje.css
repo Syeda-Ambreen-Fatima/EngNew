@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 17px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 3px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #11e655;
+}
+
+.corner-text {
+    position: absolute;
+    top: 10px;
+    left: 4px;
+    color: #f4f0f0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+main {
+
+        flex-grow: 1; /* Grow to fill remaining vertical space */
+        max-width: 1200px;
+        margin: auto; /* Center the main container horizontally */
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        grid-gap: 20px;
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
+    
+    
+}
+
+.art-piece {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    
+}
+
+.art-piece img {
+    max-width: 100%;
+    border-radius: 8px;
+    height: 300px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: auto; /* Push the footer to the bottom */
+}
+
+.footer-links {
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-social-icons {
+    margin-top: 15px;
+}
+
+.footer-social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+}
+.Welcome{
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+.welcome-message {
+    position: fixed;
+    top: -100px; /* Position above the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: top 0.5s ease-in-out; /* Add transition effect for smooth animation */
+    z-index: 9999; /* Ensure the message is on top of other elements */
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.topic{
+    font-size: 20px;
+    margin: 100px;
+    height: 20px;
+    
+    
+}
+.art1-piece img{
+    max-width: 100%;
+    border-radius: 8px;
+   max-height: 300px;
+   min-height: 300px;
+}
+.art1-piece {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    
+}
+.artsh{
+    font-size: 50px;
+    text-align: center ;
+     font-weight: 500;
+}
+.art2-piece img{
+    max-width: 100%;
+    border-radius: 8px;
+   max-height: 300px;
+   min-height: 300px;
+}
+.art2-piece {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    
+}
+.art3-piece img{
+    max-width: 100%;
+    border-radius: 8px;
+   max-height: 300px;
+   min-height: 300px;
+}
+.art3-piece {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    
+}
+.art4-piece img{
+    max-width: 100%;
+    border-radius: 8px;
+   max-height: 300px;
+   min-height: 300px;
+}
+.art4-piece {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    
+}
+.team-pictures {
+    margin-top: 15px;
+    text-align: center; /* Center the images */
+}
+
+.team-member {
+    display: inline-block; /* Display team members in a line */
+    margin: 0 10px; /* Adjust spacing between team members */
+    vertical-align: top; /* Align team members at the top */
+}
+
+.team-member img {
+    width: 100px;
+    display: block;
+    margin: 0 auto; /* Center the images horizontally */
+}
+
+.team-member p {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 5px;
+}

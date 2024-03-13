@@ -1,0 +1,62 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+    font-size: 17px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 3px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #11e655;
+}
+
+.corner-text {
+    position: absolute;
+    top: 15px;
+    left: 9px;
+    color: #f4f0f0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.h1{
+    text-align: center;
+    font-family: Georgia;
+    font-size: 65px;
+    font-weight: 650;
+    
+}
+.mz{
+    width: 800px;
+}
+.m{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+}
+.ma{
+    margin-left: 350px;
+}
+.rid{
+    font-size: 60px ;
+    text-align: center;
+    font-weight: 400;
+}
+.que{
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Gill Sans';
+}
+.ft{
+    font-size: 25px;
+    font-weight: 200;
+    text-align: right;
+}
